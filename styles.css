@@ -1,0 +1,32 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav ul .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+nav ul .dropdown-content li {
+    display: block;
+}
+
+nav ul .dropdown-content li a {
+    padding: 10px;
+}
